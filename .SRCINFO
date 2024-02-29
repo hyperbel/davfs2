@@ -7,7 +7,6 @@ pkgbase = davfs2
 	arch = aarch64
 	arch = x86_64
 	license = GPL
-	depends = neon
 	backup = etc/davfs2/davfs2.conf
 	backup = etc/davfs2/secrets
 	source = https://mirror.easyname.at/nongnu/davfs2/davfs2-1.7.0.tar.gz

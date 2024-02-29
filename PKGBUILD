@@ -9,7 +9,6 @@ pkgdesc="File system driver that allows you to mount a WebDAV folder"
 arch=('armv7h' 'aarch64' 'x86_64')
 url="https://savannah.nongnu.org/projects/${pkgname}"
 license=('GPL')
-depends=('neon')
 backup=(etc/${pkgname}/${pkgname}.conf etc/${pkgname}/secrets)
 source=(https://mirror.easyname.at/nongnu/${pkgname}/${pkgname}-${pkgver}.tar.gz{,.sig})
 validpgpkeys=('51A0F4A0C8CFC98F842EA9A8B94556F81C85D0D5') # Ali Abdallah <aabdallah@suse.com>
